@@ -1,0 +1,13 @@
+.venv
+training/data
+.idea
+api/models/parameters
+DS_Store
+pycache/
+api/__pycache__/
+training/runs
+api/models/*/*/*.pt
+api/models/*/*/*
+*.pt
+api/models/
+training/__pycache__/

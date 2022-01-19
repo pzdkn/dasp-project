@@ -1,0 +1,15 @@
+<html>
+    <head>
+      {% if title %}
+      <title>{{ title }} - DASP Evolution of Debates</title>
+      {% else %}
+      <title>DASP Evolution of Debates</title>
+      {% endif %}
+    </head>
+    <body>
+        <div>DASP Evolution of Debates: <a href="/index">Home</a></div> 
+        <!-- TODO: Link to main website instead of /index?-->
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>
